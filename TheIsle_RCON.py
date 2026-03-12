@@ -1,18 +1,18 @@
 """
 Connects to an RCON server running on the Isle Evrima.
 Support a few commands at the time, and supports command arguments in the following form:
-python TheIsle_RCON.py --ip <IP> --port <PORT> --password <password> --command <command> --arg <Command arg in Quotes>
+python TheIsle_RCON.py --ip <194.69.160.56:16006> --port <16007> --password <fef1272es1f> --command <command> --arg <Command arg in Quotes>
 """
 import socket, time, sys
 import os
 import argparse
 
-__author__ = "ModernHam/Aspect"
+__author__ = "DarkPrince"
 __license__ = "GPLv3"
 
-ip = "127.0.0.1"
+ip = "194.69.160.56:16006"
 port = 8888
-password = "password"
+password = "fef1272es1f"
 timeout = 5
 packetMainLength = 2
 arg = ""
